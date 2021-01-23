@@ -1,0 +1,17 @@
+{
+    "name": "jparkkennaby/wp-component-library",
+    "description": "Resuable PHP components",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Joe Park-Kennaby"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "require": {}
+}
