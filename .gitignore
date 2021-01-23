@@ -93,3 +93,4 @@ wp-content/themes/*/sitemaps/*
 # Composer
 /vendor
 /wp-content/themes/twentytwenty/
+/wp-content/plugins/simply-static/
