@@ -1,0 +1,13 @@
+@function rem($px, $base-font-size: $base-font-size) {
+  @return ($px / $base-font-size) * 1rem;
+}
+
+
+// Animation Loop
+
+@for $i from 1 through 12 {
+  .animation-delay-#{$i} {
+    animation-delay: $animation-time * $i;
+  }
+
+}

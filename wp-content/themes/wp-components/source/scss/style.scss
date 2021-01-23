@@ -1,0 +1,14 @@
+/*!
+	Theme Name: WP Components
+	Description: WP theme demonstrating reusable components
+	Version: 1.0.0
+	Author: Joe Park-Kennaby;
+*/
+
+@import "base/base";
+@import "third-party/third-party";
+@import "helpers/helpers";
+@import "grid/grid";
+@import "components/components";
+@import "layout/layout";
+@import "views/views";

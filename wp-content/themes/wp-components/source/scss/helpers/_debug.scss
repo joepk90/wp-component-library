@@ -1,0 +1,24 @@
+.responsive-debug {
+	position:fixed;
+	left:0;
+	bottom:0;
+	color:white;
+	background:#666;
+	padding:5px;
+	z-index: 999;
+	&:after {
+		content: ' small';
+
+		@include breakpoint(medium) {
+			content: ' medium';
+		}
+
+		@include breakpoint(large) {
+			content: ' large';
+		}
+		
+		@include breakpoint(xlarge) {
+			content: ' xlarge';
+		}
+	}
+}
