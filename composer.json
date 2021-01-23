@@ -13,5 +13,7 @@
             "url": "https://wpackagist.org"
         }
     ],
-    "require": {}
+    "require": {
+        "wpackagist-theme/twentytwenty": "^1.6"
+    }
 }
