@@ -1,0 +1,94 @@
+# Windows
+Thumbs.db
+ 
+# OSX
+._*
+.DS_Store
+ 
+# IDEs
+.idea
+.project
+.metadata
+ 
+# Empty folders
+!.gitignore
+ 
+# WordPress
+wp-content/uploads
+wp-content/upgrade
+wp-config.php
+wp-config-sample.php
+wp-content/cache
+wp-content/mu-plugins
+ 
+# WordPress debugging files
+log.txt
+debug.log
+ 
+# WordPress Plugins
+object-cache.php
+wp-content/plugins/w3-total-cache/*
+wp-content/plugins/wordfence/*
+wp-content/advanced-cache.php
+wp-content/db.php
+wp-content/wp-rocket-config
+wp-content/plugins/wp-rocket/cache.json
+ 
+# WPE
+_wpeprivate
+ 
+# mu plugins
+wp-content/mu-plugins
+ 
+# known large file types
+*.hqx
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
+*.img
+*.msi
+*.msp
+*.msm
+*.mid
+*.midi
+*.kar
+*.mp3
+*.ogg
+*.m4a
+*.ra
+*.3gpp
+*.3gp
+*.mp4
+*.mpeg
+*.mpg
+*.mov
+*.webm
+*.flv
+*.m4v
+*.mng
+*.asx
+*.asf
+*.wmv
+*.avi
+*.zip
+*.ta
+*.tgz
+*.mmdb
+ 
+# Custom
+/cache
+wp-content/themes/*/bower_components
+wp-content/themes/*/node_modules
+.sass-cache
+npm-debug.log
+ 
+# Sitemaps
+wp-content/themes/*/sitemaps/*
+!wp-content/themes/*/sitemaps/get_sitemap.php
+!wp-content/themes/*/sitemaps/.htaccess
+!wp-content/themes/*/sitemaps/.htpasswd
+
+# Composer
+/vendor
